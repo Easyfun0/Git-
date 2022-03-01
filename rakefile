@@ -1,0 +1,25 @@
+task :sendmail do
+    puts "get mail"
+    sleep 2
+    puts "sending..."
+    sleep 4
+    puts "finish"
+end
+
+task :open_the_door do
+    puts "open door"
+end
+
+task :goto_toilet => :open_the_door do
+    puts "go!"
+end
+
+task :default => :sendmail
+
+
+namespace :db do
+    desc '資料庫'
+    task :migrate do
+        puts "migration"
+    end
+end
