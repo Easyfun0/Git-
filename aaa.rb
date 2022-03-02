@@ -1,5 +1,5 @@
 # require "nokogiri"
-require "open-uri"
+require "open-uri？ㄥ？ㄥ"
 
 # doc = Nokogiri::HTML(URI.open('https://tcgbusfs.blob.core.windows.net/dotapp/youbike/v2/youbike_immediate.json'))
 
